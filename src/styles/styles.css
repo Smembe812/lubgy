@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFB64D;
+    font-size: 1.2em;
+    font-weight: 400;
+    font-family: 'Abel', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+h5 { 
+    font-size: 1.3em
+}
+.card, .btn {
+    border-radius: unset;
+    border: unset;
+    
+}
+
+.card {
+    box-shadow: 0px 0px 2px 1px rgba(238, 156, 36, 0.96);
+    border: unset;
+    border-radius: unset;
+    background: #FFD69B;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 20px 20px rgba(238, 156, 36, 0.34);
+}
+
+
+.clear-margin {
+    margin: 10% auto
+}
+
+.btn-primary {
+    background: #FFFFFF;
+    color: #000000
+}

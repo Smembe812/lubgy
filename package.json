@@ -1,0 +1,14 @@
+{
+  "name": "lugby",
+  "version": "1.0.0",
+  "description": "website theme & toolkit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "toolkit"
+  ],
+  "author": "Paul Sembereka II",
+  "license": "ISC"
+}
