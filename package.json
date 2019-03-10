@@ -10,5 +10,13 @@
     "toolkit"
   ],
   "author": "Paul Sembereka II",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^4.3.1",
+    "browserify": "^16.2.3",
+    "gulp": "^4.0.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-sass": "^4.0.2",
+    "vinyl-source-stream": "^2.0.0"
+  }
 }
