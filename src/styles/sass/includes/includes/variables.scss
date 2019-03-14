@@ -1,6 +1,22 @@
 //colors
 $orange-base: #FFB64D;
+$blue-100: #BBDEFB;
+$primary: #007bff;
+$secondary: #6c757d;
+$success: #28a745;
+$danger: #dc3545;
+$warning: #ffc107;
+$info: #17a2b8;
+$dark: #343a40;
+
 
 //fonts
 $font-family: "Abel",sans-serif;
 //$font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+//box shadow
+$orange-theme-box-shadow: 0px 0px 2px 1px rgba(238, 156, 36, 0.96);
+$blue-theme-box-shadow: 0px 0px 2px 1px rgba(142, 197, 242, 1);
+$light-theme-box-shadow: 0px 0px 2px 1px rgba(238, 156, 36, 0.96);
+
+$blue-theme-box-shadow-hover: 0px 0px 18px 3px rgba(142, 197, 242, 1);

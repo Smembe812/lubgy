@@ -1,0 +1,29 @@
+@import './includes/includes/variables.scss';
+
+.btn-outline-primary {
+    border: solid thin $primary !important;
+}
+
+.btn-outline-secondary {
+    border: solid thin $secondary !important;
+}
+
+.btn-outline-warning {
+    border: solid thin $warning !important;
+}
+
+.btn-outline-info {
+    border: solid thin $info !important;
+}
+
+.btn-outline-danger {
+    border: solid thin $danger !important;
+}
+
+.btn-outline-dark {
+    border: solid thin $dark !important;
+}
+
+.btn-outline-success {
+    border: solid thin $success !important;
+}

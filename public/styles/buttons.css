@@ -1,0 +1,20 @@
+.btn-outline-primary {
+  border: solid thin #007bff !important; }
+
+.btn-outline-secondary {
+  border: solid thin #6c757d !important; }
+
+.btn-outline-warning {
+  border: solid thin #ffc107 !important; }
+
+.btn-outline-info {
+  border: solid thin #17a2b8 !important; }
+
+.btn-outline-danger {
+  border: solid thin #dc3545 !important; }
+
+.btn-outline-dark {
+  border: solid thin #343a40 !important; }
+
+.btn-outline-success {
+  border: solid thin #28a745 !important; }
