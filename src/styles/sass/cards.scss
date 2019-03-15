@@ -1,0 +1,15 @@
+@import './includes/includes/variables.scss';
+
+.card {
+    box-shadow: $blue-theme-box-shadow;
+    border-radius: unset;
+    cursor: pointer;
+
+    img {
+        border-radius: unset
+    }
+}
+
+.card:hover {
+    box-shadow: $blue-theme-box-shadow-hover;
+}

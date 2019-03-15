@@ -14,14 +14,13 @@ h5 {
 }
 .card, .btn {
     border-radius: unset;
-    border: unset;
     
 }
 
 .card {
     box-shadow: $blue-theme-box-shadow;
-    border: unset;
     border-radius: unset;
+    border: none;
     cursor: pointer;
 }
 
@@ -34,3 +33,10 @@ h5 {
     margin: 10% auto
 }
 
+.border-secondary {
+    border-color: $secondary
+}
+
+.border-primary {
+    border-color: $primary
+}
