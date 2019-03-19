@@ -40,3 +40,15 @@ h5 {
 .border-primary {
     border-color: $primary
 }
+
+.rainbow-show {
+    .tag {
+        float: unset !important; 
+        font-size: unset !important;
+        font-weight: unset !important;
+        line-height: unset !important;
+        color: unset !important;
+        text-shadow: unset !important;
+        opacity: unset !important;
+    }
+}
