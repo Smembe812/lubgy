@@ -15,6 +15,10 @@
     .re-w{
         width: 100% !important
     }
+    
+    .right{
+        background: #16b075e6;
+    }
 }
 
 @media (max-width: 375px){
@@ -25,6 +29,10 @@
     .re-w{
         width: 100% !important
     }
+
+    .right{
+        background: #16b075e6;
+    }
 }
 
 @media (max-width: 425px){
@@ -32,6 +40,30 @@
         font-size: 2em
     }
 
+    .re-w{
+        width: 100% !important
+    }
+
+    .right{
+        background: #16b075e6;
+    }
+}
+
+@media (max-width: 768px){
+    .re-font-size{
+        font-size: 2em
+    }
+
+    .re-w{
+        width: 100% !important
+    }
+
+    .right{
+        background: #16b075e6;
+    }
+}
+
+@media (max-width: 1024px){
     .re-w{
         width: 100% !important
     }
