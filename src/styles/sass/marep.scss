@@ -1,0 +1,38 @@
+.left{
+    background: #16b075e6;
+    padding-right: 0;
+}
+
+.right{
+    background: linear-gradient(to right, #16b075e6 , #16b0758a);
+}
+
+@media (max-width: 320px){
+    .re-font-size{
+        font-size: 2em
+    }
+
+    .re-w{
+        width: 100% !important
+    }
+}
+
+@media (max-width: 375px){
+    .re-font-size{
+        font-size: 2em
+    }
+
+    .re-w{
+        width: 100% !important
+    }
+}
+
+@media (max-width: 425px){
+    .re-font-size{
+        font-size: 2em
+    }
+
+    .re-w{
+        width: 100% !important
+    }
+}

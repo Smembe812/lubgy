@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel">
+    <link rel="stylesheet" href="http://handsontable.com/dist/handsontable.full.css"> 
+    <link rel="stylesheet" href="styles/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="styles/code-highlight-themes/monokai.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/forms.css">
+    <link rel="stylesheet" href="styles/alerts.css">
+    <link rel="stylesheet" href="styles/egpaf.css">
+    
+</head>
+<body>
+    <header class="shadow-sm">
+        <nav class="nav justify-content-center bg-light">
+            <a class="navbar-brand" href="#">
+                <h1>ART Mastercard Back-Data App</h1>
+            </a>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse  justify-content-center navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Reports</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Registration
+                    </a>
+                </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="">
+        <div class="container">
+            <div class="row d-flex justify-content-center py-5">
+                        <form class="search-form form-inline my-2 my-lg-0 align-self-center">
+                            <input class="form-control mr-sm-2 py-4" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0 py-2" type="submit">Search</button>
+                        </form>
+                        
+            </div>
+
+        </div>
+           
+    </section>
+    <section class="search-results">
+        <div class="container">
+            <div class="row d-flex justify-content-center py-5">
+                    <div class="alert alert-info" role="alert">
+                            10 Patients Matching <span class="alert-link">Pablo</span> Search
+                        </div>
+                        <div class="alert text-align-center alert-warning" role="alert">
+                            <h4 class="alert-heading">No Patient found  matching <strong>Pablo</strong> Search</h4>
+                            <p class="mb-3">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+                            <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#addNewPatientModal">Add New Patient</button>
+                        </div>
+                    <table class="table">
+                            <thead class="thead-dark">
+                              <tr>
+                                <th scope="col">ART No.</th>
+                                <th scope="col">Given Name</th>
+                                <th scope="col">Middle Name</th>
+                                <th scope="col">Family Name</th>
+                                <th scope="col">Sex</th>
+                                <th scope="col">Date of Birth</th>
+                                <th scope="col">Phone</th>
+                                <th scope="col">Date Created</th>
+                                <th scope="col">Actions</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>@twitter</td>
+                                    <td>the Bird</td>
+                                    <td><button type="button" class="btn btn-success btn-sm">View MasterCards</button></td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                                <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>@twitter</td>
+                                    <td>the Bird</td>
+                                    <td><button type="button" class="btn btn-success btn-sm">View MasterCards</button></td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                                <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>@twitter</td>
+                                    <td>the Bird</td>
+                                    <td><button type="button" class="btn btn-success btn-sm">View MasterCards</button></td>
+                              </tr>
+                              <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                    <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>@twitter</td>
+                                    <td>the Bird</td>
+                                    <td><button type="button" class="btn btn-success btn-sm">View MasterCards</button></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">2</th>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                    <td>@fat</td>
+                                    <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>@twitter</td>
+                                    <td>the Bird</td>
+                                    <td><button type="button" class="btn btn-success btn-sm">View MasterCards</button></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">3</th>
+                                    <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>@twitter</td>
+                                    <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>@twitter</td>
+                                    <td>the Bird</td>
+                                    <td>
+                                        
+                                        <button type="button" class="btn btn-success btn-sm">View MasterCards</button>
+                                    </td>
+                                  </tr>
+                            </tbody>
+                          </table>
+                    <!----<div class="patient-item d-block">
+                            <div class="card mb-1" >
+                                <div class="row no-gutters">
+                                <div class="col-md-2 ">
+                                    <div class="bg-secondary" style="width:100%; height: 100%"></div>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="patient-item d-block">
+                            <div class="card mb-1" >
+                                <div class="row no-gutters">
+                                <div class="col-md-12">
+                                    <div class="card-body">
+                                    <h5 class="d-inline card-title mr-auto">Patient Name</h5> 
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Date Created</small></p>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                    </div>-->
+
+
+            </div> 
+        </div>
+        
+    </section>
+    <section class="patient-profile my-5">
+        <div class="container">
+            <div class="row">
+                    <div class="card" style="width: 100%">
+                        <div class="card-body">
+                            <h5 class="card-title">Mark Otto Teller</h5>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <p>Sex</p>
+                                </div>
+                                <div class="col-md-8">
+                                    Male
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <p>Tribe</p>
+                                </div>
+                                <div class="col-md-8">
+                                    Chewa
+                                </div>
+                            </div>
+                            <div class="row">
+                                    <div class="col-md-4">
+                                        <p>Date of Birth</p>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <p>January 17th, 2018</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-md-4">
+                                            <p>Guardian Name</p>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <p>Samuel Yute</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <p>Phone</p>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <p>Patient: 0888232382, Guardian: 0999232382</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                            <div class="col-md-4">
+                                                <p>Agree to FUP</p>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <p>Yes</p>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                                <div class="col-md-4">
+                                                    <p>Address 1</p>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <p>Ndola, Zomba, Malawi</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <p>City Village</p>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <p>Bwaila</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                    <div class="col-md-4">
+                                                        <p>State Province</p>
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <p>southern</p>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                        <div class="col-md-4">
+                                                            <p>Country</p>
+                                                        </div>
+                                                        <div class="col-md-8">
+                                                            <p>Malawi</p>
+                                                        </div>
+                                                    </div>
+                                                    <button type="button" class="btn btn-primary btn-sm d-flex justify-content-end">View MasterCards</button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Example select</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                    </div>
+                    <div class="col-md-6">
+                            <button type="button" class="btn btn-primary btn-lg my-4">Add New Mastercard</button>
+                    </div>
+
+            </div>
+        </div>
+        
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                    <div class="card-deck">
+                            <div class="card">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Patients Due Viral</h5>
+                                      <h1 class="display-4">20</h1>
+                                    </div>
+                                  </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Patients Due Viral</h5>
+                                    <h1 class="display-4">20</h1>
+                                </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-body">
+                                <h5 class="card-title">Patients Due Viral</h5>
+                                <h1 class="display-4">20</h1>
+                              </div>
+                            </div>
+                          </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mastercard-forms">
+        <div>
+            <div class="card-group">
+                    <div class="card my-4">
+                        <div class="card-header">
+                            <h5 class="text-align-center">Mark Otto Teller</h5>
+                        </div>
+                            <div class="card-body reduce-margin-p">
+                                
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <p>Sex</p>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <p>Male</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <p>Tribe</p>
+                                    </div>
+                                    <div class="col-md-9">
+                                        Chewa
+                                    </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-md-3">
+                                            <p>Date of Birth</p>
+                                        </div>
+                                        <div class="col-md-9">
+                                            <p>January 17th, 2018</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                            <div class="col-md-3">
+                                                <p>Guardian Name</p>
+                                            </div>
+                                            <div class="col-md-9">
+                                                <p>Samuel Yute</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <p>Phone</p>
+                                            </div>
+                                            <div class="col-md-9">
+                                                <p>Patient: 0888232382, Guardian: 0999232382</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                                <div class="col-md-3">
+                                                    <p>Agree to FUP</p>
+                                                </div>
+                                                <div class="col-md-9">
+                                                    <p>Yes</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                    <div class="col-md-3">
+                                                        <p>Address 1</p>
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <p>Ndola, Zomba, Malawi</p>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-3">
+                                                        <p>City Village</p>
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <p>Bwaila</p>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                        <div class="col-md-3">
+                                                            <p>State Province</p>
+                                                        </div>
+                                                        <div class="col-md-9">
+                                                            <p>southern</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                            <div class="col-md-3">
+                                                                <p>Country</p>
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <p>Malawi</p>
+                                                            </div>
+                                                        </div>
+                            </div>
+                        </div>
+                    <div class="card my-4">
+                        <div class="card-header">
+                            <h5 class="text-align-center">Status at ART Initiation</h5>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="form-row">
+                                        <div class="col-md-6 mb-2">
+                                            <label for="validationServer01">HIV Related Diseases</label>
+                                            <input type="text" class="form-control" id="validationServer01" placeholder="HIV Related Diseases"  required>
+                                        </div>
+                                        <div class="col-md-6 mb-2">
+                                            <label for="validationServer02">Urine LAM / CrAg Result</label>
+                                            <input type="text" class="form-control" id="validationServer02" placeholder="Urine LAM / CrAg Result" required>
+                                        </div>
+                                        </div>
+                                        <div class="form-row">
+                                                <div class="col-md-3 mb-2">
+                                                        <label for="validationServer03">WHO Stage</label>
+                                                        <input type="text" class="form-control" id="validationServer03" placeholder="Options (1, 2, 3 or 4 PSHD)" required>
+                                                </div>
+                                                <div class="col-md-3 mb-2">
+                                                        <label for="validationServer03">TB Status at Init</label>
+                                                        <input type="text" class="form-control" id="validationServer03" placeholder="Options (Never/> 2 yrs, Last 2yrs, Curr)" required>
+                                                </div>
+                                                <div class="col-md-3 mb-2">
+                                                    <label for="validationServer03">CD4</label>
+                                                    <input type="text" class="form-control" id="validationServer03" placeholder="CD4" required>
+                                                </div>
+                                                <div class="col-md-3 mb-2">
+                                                        <label for="validationServer03">CD4 Date</label>
+                                                        <input type="date" class="form-control" id="validationServer03" required>
+                                                    </div>
+                                        </div>
+            
+                                        <div class="form-row">
+                                                <div class="col-md-4 mb-2">
+                                                        <label for="validationServer03">KS</label>
+                                                        <input type="text" class="form-control" id="validationServer03" placeholder="Options (Y or N)" required>
+                                                    </div>
+                                                <div class="col-md-4 mb-2">
+                                                        <label for="validationServer03">Pregnant/Breastfeeding</label>
+                                                        <input type="d" class="form-control" id="validationServer03" placeholder="Options (N, Preg, or Bf)" required>
+                                                </div>
+                                                <div class="col-md-4 mb-2">
+                                                        <label for="validationServer03">Height / Wgt</label>
+                                                        <div class="form-inline fit-2-input-fields">
+                                                                <input type="text" class="form-control" id="validationServer03" placeholder="CM" required>
+                                                                <input type="text" class="form-control" id="validationServer03" placeholder="KG" required>
+                                                        </div>
+                                                        
+                                                </div>
+                                                
+                                        </div>
+            
+                                        <div class="form-row">
+                                                <div class="col-md-4 mb-2">
+                                                        <label for="validationServer03">Age at Initiation</label>
+                                                        <input type="text" class="form-control" id="validationServer03" placeholder="Age" required>
+                                                    </div>
+                                                <div class="col-md-8 mb-2">
+                                                        <label for="validationServer03">Last ARVs (type/date)</label>
+                                                        <div class="form-inline fit-2-input-fields">
+                                                                <input type="text" class="form-control" id="validationServer03" placeholder="Drug" required>
+                                                                <input type="date" class="form-control" id="validationServer03" required>
+                                                        </div>
+                                                </div>
+                                                
+                                        </div>
+                            </form>
+                        </div>
+                    </div>
+                        
+                        <div class="card my-4">
+                            <div class="card-header">
+                                <h5 class="text-align-center">Confirmatory HIV Test before ART Start</h5>
+                            </div>
+                            <div class="card-body">
+                                        <form>
+                                                <div class="form-row">
+                                                        <div class="col-md-12 mb-2">
+                                                          <label for="validationServer01">Site, HTC Serial No.</label>
+                                                          <input type="text" class="form-control" id="validationServer01" placeholder="Site, HTC Serial No."  required>
+                                                        </div>
+                                                      </div>
+                          
+                                                      <div class="form-row">
+                                                            <div class="col-md-12 mb-2">
+                                                                    <label for="validationServer03">Test Date</label>
+                                                                    <div class="form-inline fit-2-input-fields">
+                                                                            <input type="date" class="form-control" required>
+                                                                            <input type="text" class="form-control" placeholder="Options (Rapid, PCR)" required>
+                                                                    </div>
+                                                            </div>
+                                                      </div>
+
+                                                      <div class="form-row">
+                                                            <div class="col-md-12 mb-2">
+                                                                    <label for="validationServer03">ART educatucation done</label>
+                                                                    <div class="form-inline fit-2-input-fields">
+                                                                            <input type="text" class="form-control" placeholder="Options (N, Y)" required>
+                                                                            <input type="date" class="form-control" required>
+                                                                    </div>
+                                                            </div>
+                                                      </div>
+
+                                                      <div class="form-row">
+                                                            <div class="col-md-12 mb-2">
+                                                                    <label for="validationServer03">TB treatment (Reg No. / Start Date)</label>
+                                                                    <div class="form-inline fit-2-input-fields">
+                                                                            <input type="text" class="form-control" placeholder="Registration Number" required>
+                                                                            <input type="date" class="form-control" required>
+                                                                    </div>
+                                                            </div>
+                                                      </div>
+
+                                                      <div class="form-row">
+                                                            <div class="col-md-12 mb-2">
+                                                                    <label for="validationServer03">ART Regimens (Regimen / Start Date)</label>
+                                                                    <div class="form-inline fit-2-input-fields">
+                                                                            <input type="text" class="form-control" placeholder="ART Regimens" required>
+                                                                            <input type="date" class="form-control" required>
+                                                                    </div>
+                                                            </div>
+                                                      </div>
+
+                                                      <div class="form-row">
+                                                            <div class="col-md-12 mb-2">
+                                                                    <label for="validationServer03">Current Regimens</label>
+                                                                    <div class="form-inline fit-2-input-fields">
+                                                                            <input type="text" class="form-control" placeholder="Current Regimens" required>
+                                                                            <input type="date" class="form-control" required>
+                                                                    </div>
+                                                            </div>
+                                                      </div>
+
+                                                      <div class="form-row">
+                                                            <div class="col-md-12 mb-2">
+                                                                    <label for="validationServer03">Annual BP Screening for 30+ yrs (sys / dias)</label>
+                                                                    <div class="form-inline fit-2-input-fields">
+                                                                            <input type="text" class="form-control" placeholder="Current Regimens" required>
+                                                                            <input type="date" class="form-control" required>
+                                                                    </div>
+                                                            </div>
+                                                      </div>
+                                          </form>
+                            </div>
+                        </div>
+                </div>
+
+            </div>
+
+    </section>
+
+    <section class="handsontable">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="hot"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="modal fade" id="addNewPatientModal" tabindex="-1" role="dialog" aria-labelledby="addNewPatientModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Enter Patient Details</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                        <form>
+                                <div class="form-row">
+                                  <div class="col-md-4 mb-3">
+                                    <label for="validationServer01">Given Name</label>
+                                    <input type="text" class="form-control" id="validationServer01" placeholder="First name" value="Mark" required>
+                                    <div class="valid-feedback">
+                                      Looks good!
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4 mb-3">
+                                    <label for="validationServer02">Middle Name</label>
+                                    <input type="text" class="form-control" id="validationServer02" placeholder="Last name" value="Otto" required>
+                                    <div class="valid-feedback">
+                                      Looks good!
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4 mb-3">
+                                        <label for="validationServer02">Family Name</label>
+                                        <input type="text" class="form-control" id="validationServer02" placeholder="Last name" value="Otto" required>
+                                        <div class="valid-feedback">
+                                          Looks good!
+                                        </div>
+                                      </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-md-4 mb-3">
+                                            <legend class="col-form-label col-sm-2 pt-0">Sex</legend>
+                                            <div class="col-sm-10">
+                                              <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="sex" id="sex1" value="Female" checked>
+                                                <label class="form-check-label" for="sex1">
+                                                  Female
+                                                </label>
+                                              </div>
+                                              <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="sex" id="sex2" value="Male">
+                                                <label class="form-check-label" for="sex2">
+                                                  Male
+                                                </label>
+                                              </div>
+                                            </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <label for="validationServer03">Date of Birth</label>
+                                        <input type="date" class="form-control" id="validationServer03" required>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                            <label for="validationServer03">Tribe</label>
+                                            <input type="text" class="form-control" id="validationServer03" placeholder="Tribe" required>
+                                        </div>
+                                </div>
+                                <div class="form-row">
+                                        <div class="col-md-6 mb-3">
+                                                <label for="validationServer03">Guardian Name</label>
+                                                <input type="text" class="form-control" id="validationServer03" placeholder="Name of guardian" required>
+                                        </div>
+                                        <div class="col-md-3 mb-3">
+                                            <label for="validationServer03">Phone Numbers</label>
+                                            <input type="text" class="form-control" id="validationServer03" placeholder="Patient" required>
+                                        </div>
+                                        <div class="col-md-3 mb-3">
+                                                <label for="validationServer03" style="color: #fff">.</label>
+                                                <input type="text" class="form-control" id="validationServer03" placeholder="Guardian" required>
+                                            </div>
+                                    </div>
+                                    <br>
+                                    <div class="form-row">
+                                        <div class="col-md-4 mb-3">
+                                                <label for="validationServer03">Address 1</label>
+                                                <input type="text" class="form-control" id="validationServer03" placeholder="Address 1" required>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <label for="validationServer03">Address 2</label>
+                                            <input type="text" class="form-control" id="validationServer03" placeholder="Address 2" required>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                                <label for="validationServer03">City Village</label>
+                                                <input type="text" class="form-control" id="validationServer03" placeholder="City Village" required>
+                                            </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col-md-4 mb-3">
+                                                <label for="validationServer03">State Province</label>
+                                                <input type="text" class="form-control" id="validationServer03" placeholder="" required>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <label for="validationServer03">Postal Code</label>
+                                            <input type="text" class="form-control" id="validationServer03" placeholder="" required>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <label for="validationServer03">Country</label>
+                                            <input type="text" class="form-control" id="validationServer03" placeholder="City Village" required>
+                                        </div>
+
+                                        
+                                    </div>
+
+                                    <div class="form-row">
+                                        <div class="col-md-4 mb-3">
+                                            <label for="validationServer03">District</label>
+                                            <input type="text" class="form-control" id="validationServer03" placeholder="City Village" required>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                                <label for="validationServer03">Latitude</label>
+                                                <input type="text" class="form-control" id="validationServer03" placeholder="Latitude" required>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <label for="validationServer03">Longitude</label>
+                                            <input type="text" class="form-control" id="validationServer03" placeholder="Longitude" required>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-primary" type="submit">Submit form</button>
+                                    </form>
+                            
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts/bootstrap/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/handsontable@latest/dist/handsontable.full.min.js"></script>
+    <script>
+        var dataObject = [
+  {
+    id: 1,
+    flag: 'EUR',
+    currencyCode: 'EUR',
+    currency: 'Euro',
+    level: 0.9033,
+    units: 'EUR / USD',
+    asOf: '08/19/2019',
+    onedChng: 0.0026
+  },
+  {
+    id: 2,
+    flag: 'JPY',
+    currencyCode: 'JPY',
+    currency: 'Japanese Yen',
+    level: 124.3870,
+    units: 'JPY / USD',
+    asOf: '08/19/2019',
+    onedChng: 0.0001
+  },
+  {
+    id: 3,
+    flag: 'GBP',
+    currencyCode: 'GBP',
+    currency: 'Pound Sterling',
+    level: 0.6396,
+    units: 'GBP / USD',
+    asOf: '08/19/2019',
+    onedChng: 0.00
+  },
+  {
+    id: 4,
+    flag: 'CHF',
+    currencyCode: 'CHF',
+    currency: 'Swiss Franc',
+    level: 0.9775,
+    units: 'CHF / USD',
+    asOf: '08/19/2019',
+    onedChng: 0.0008
+  },
+  {
+    id: 5,
+    flag: 'CAD',
+    currencyCode: 'CAD',
+    currency: 'Canadian Dollar',
+    level: 1.3097,
+    units: 'CAD / USD',
+    asOf: '08/19/2019',
+    onedChng: -0.0005
+  },
+  {
+    id: 6,
+    flag: 'AUD',
+    currencyCode: 'AUD',
+    currency: 'Australian Dollar',
+    level: 1.3589,
+    units: 'AUD / USD',
+    asOf: '08/19/2019',
+    onedChng: 0.0020
+  },
+  {
+    id: 7,
+    flag: 'NZD',
+    currencyCode: 'NZD',
+    currency: 'New Zealand Dollar',
+    level: 1.5218,
+    units: 'NZD / USD',
+    asOf: '08/19/2019',
+    onedChng: -0.0036
+  },
+  {
+    id: 8,
+    flag: 'SEK',
+    currencyCode: 'SEK',
+    currency: 'Swedish Krona',
+    level: 8.5280,
+    units: 'SEK / USD',
+    asOf: '08/19/2019',
+    onedChng: 0.0016
+  },
+  {
+    id: 9,
+    flag: 'NOK',
+    currencyCode: 'NOK',
+    currency: 'Norwegian Krone',
+    level: 8.2433,
+    units: 'NOK / USD',
+    asOf: '08/19/2019',
+    onedChng: 0.0008
+  },
+  {
+    id: 10,
+    flag: 'BRL',
+    currencyCode: 'BRL',
+    currency: 'Brazilian Real',
+    level: 3.4806,
+    units: 'BRL / USD',
+    asOf: '08/19/2019',
+    onedChng: -0.0009
+  },
+  {
+    id: 11,
+    flag: 'CNY',
+    currencyCode: 'CNY',
+    currency: 'Chinese Yuan',
+    level: 6.3961,
+    units: 'CNY / USD',
+    asOf: '08/19/2019',
+    onedChng: 0.0004
+  },
+  {
+    id: 12,
+    flag: 'RUB',
+    currencyCode: 'RUB',
+    currency: 'Russian Rouble',
+    level: 65.5980,
+    units: 'RUB / USD',
+    asOf: '08/19/2019',
+    onedChng: 0.0059
+  },
+  {
+    id: 13,
+    flag: 'INR',
+    currencyCode: 'INR',
+    currency: 'Indian Rupee',
+    level: 65.3724,
+    units: 'INR / USD',
+    asOf: '08/19/2019',
+    onedChng: 0.0026
+  },
+  {
+    id: 14,
+    flag: 'TRY',
+    currencyCode: 'TRY',
+    currency: 'New Turkish Lira',
+    level: 2.8689,
+    units: 'TRY / USD',
+    asOf: '08/19/2019',
+    onedChng: 0.0092
+  },
+  {
+    id: 15,
+    flag: 'THB',
+    currencyCode: 'THB',
+    currency: 'Thai Baht',
+    level: 35.5029,
+    units: 'THB / USD',
+    asOf: '08/19/2019',
+    onedChng: 0.0044
+  },
+  {
+    id: 16,
+    flag: 'IDR',
+    currencyCode: 'IDR',
+    currency: 'Indonesian Rupiah',
+    level: 13.83,
+    units: 'IDR / USD',
+    asOf: '08/19/2019',
+    onedChng: -0.0009
+  },
+  {
+    id: 17,
+    flag: 'MYR',
+    currencyCode: 'MYR',
+    currency: 'Malaysian Ringgit',
+    level: 4.0949,
+    units: 'MYR / USD',
+    asOf: '08/19/2019',
+    onedChng: 0.0010
+  },
+  {
+    id: 18,
+    flag: 'MXN',
+    currencyCode: 'MXN',
+    currency: 'Mexican New Peso',
+    level: 16.4309,
+    units: 'MXN / USD',
+    asOf: '08/19/2019',
+    onedChng: 0.0017
+  },
+  {
+    id: 19,
+    flag: 'ARS',
+    currencyCode: 'ARS',
+    currency: 'Argentinian Peso',
+    level: 9.2534,
+    units: 'ARS / USD',
+    asOf: '08/19/2019',
+    onedChng: 0.0011
+  },
+  {
+    id: 20,
+    flag: 'DKK',
+    currencyCode: 'DKK',
+    currency: 'Danish Krone',
+    level: 6.7417,
+    units: 'DKK / USD',
+    asOf: '08/19/2019',
+    onedChng: 0.0025
+  },
+  {
+    id: 21,
+    flag: 'ILS',
+    currencyCode: 'ILS',
+    currency: 'Israeli New Sheqel',
+    level: 3.8262,
+    units: 'ILS / USD',
+    asOf: '08/19/2019',
+    onedChng: 0.0084
+  },
+  {
+    id: 22,
+    flag: 'PHP',
+    currencyCode: 'PHP',
+    currency: 'Philippine Peso',
+    level: 46.3108,
+    units: 'PHP / USD',
+    asOf: '08/19/2019',
+    onedChng: 0.0012
+  }
+];
+var currencyCodes = ['EUR', 'JPY', 'GBP', 'CHF', 'CAD', 'AUD', 'NZD', 'SEK', 'NOK', 'BRL', 'CNY', 'RUB', 'INR', 'TRY', 'THB', 'IDR', 'MYR', 'MXN', 'ARS', 'DKK', 'ILS', 'PHP'];
+var flagRenderer = function (instance, td, row, col, prop, value, cellProperties) {
+  var currencyCode = value;
+  while (td.firstChild) {
+    td.removeChild(td.firstChild);
+  }
+  if (currencyCodes.indexOf(currencyCode) > -1) {
+    var flagElement = document.createElement('DIV');
+    flagElement.className = 'flag ' + currencyCode.toLowerCase();
+    td.appendChild(flagElement);
+  } else {
+    var textNode = document.createTextNode(value === null ? '' : value);
+
+    td.appendChild(textNode);
+  }
+};
+var hotElement = document.querySelector('#hot');
+var hotElementContainer = hotElement.parentNode;
+var hotSettings = {
+  data: dataObject,
+  columns: [
+    {
+      data: 'id',
+      type: 'numeric',
+      width: 40
+    },
+    {
+      data: 'flag',
+			renderer: flagRenderer
+    },
+    {
+      data: 'currencyCode',
+      type: 'text'
+    },
+    {
+      data: 'currency',
+      type: 'text'
+    },
+    {
+      data: 'level',
+      type: 'numeric',
+      numericFormat: {
+        pattern: '0.0000'
+      }
+    },
+    {
+      data: 'units',
+      type: 'text'
+    },
+    {
+      data: 'asOf',
+      type: 'date',
+      dateFormat: 'MM/DD/YYYY'
+    },
+    {
+      data: 'onedChng',
+      type: 'numeric',
+      numericFormat: {
+        pattern: '0.00%'
+      }
+    }
+  ],
+  stretchH: 'all',
+  width: 880,
+  autoWrapRow: true,
+  height: 487,
+  maxRows: 22,
+  manualRowResize: true,
+  manualColumnResize: true,
+  rowHeaders: true,
+  colHeaders: [
+    'ID',
+    'Country',
+    'Code',
+    'Currency',
+    'Level',
+    'Units',
+    'Date',
+    'Change'
+  ],
+  manualRowMove: true,
+  manualColumnMove: true,
+  contextMenu: true,
+  filters: true,
+  dropdownMenu: true
+};
+var hot = new Handsontable(hotElement, hotSettings);
+
+
+    </script>
+</body>
+</html>

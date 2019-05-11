@@ -1,0 +1,42 @@
+body {
+    background: #EBF3F3
+}
+
+.search-form {
+    button {
+        padding-bottom: 0.7rem !important;
+        padding-top: 0.7rem !important
+    }
+}
+
+.patient-item {
+    width: 100%;
+
+    .card-text, .card-title {
+        margin-bottom: 0.25rem
+    }
+    .card-body {
+        padding: 0.25rem 0.75rem;
+    }
+}
+
+.text-align-center{
+    text-align: center
+}
+
+.modal-content {
+    border-radius: unset !important
+}
+
+.fit-2-input-fields {
+    .form-control {
+        width: 50%
+    }
+}
+
+.mastercard-forms{
+    label {
+       margin-bottom: unset;
+       font-size: 1rem
+    }
+}

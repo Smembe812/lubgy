@@ -4,7 +4,7 @@ var source = require('vinyl-source-stream')
 var sass = require('gulp-sass')
 //var less = require('gulp-less');
 var minifyCSS = require('gulp-csso');
-//var concat = require('gulp-concat');
+var concat = require('gulp-concat');
 //var sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('compile:css', function(){
@@ -35,4 +35,9 @@ gulp.task('watch', gulp.series(["compile:js", "compile:css"], function() {
   gulp.watch("./src/styles/sass/**/*.scss", gulp.series("compile:css"))
 }))
 
+gulp.task('compile:lugby', function(){
+  return gulp.src('./src/styles/sass/**/*.scss')
+    .pipe(concat('gulp.scss'))
+    .pipe(gulp.dest('./src/styles/sass/'));
+})
 
