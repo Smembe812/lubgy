@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title>Badges</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel">
+        <link rel="stylesheet" href="styles/bootstrap/bootstrap.css">
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="styles/badges.css">
+        <link rel="stylesheet" href="styles/side-bar.css">
+        <script src="https://kit.fontawesome.com/26b254a8a0.js"></script>
+        
+    </head>
+    <body>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                                <span style="font-size:20px;cursor:pointer" onclick="openNav()"><i class="fa fa-cog" aria-hidden="true"></i> Settings</span>
+                                
+                        </li>
+                        
+                      </ul>
+                      <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </nav>
+                  <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Clients</a>
+                        <a href="#">Contact</a>
+                    </div>
+        <div class="container">
+            <div class="row clear-margin">
+                <div class="col-lg-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div>
+                                <h5 class="card-title">Badges</h5>
+                                <button type="button" class="btn btn-primary">
+                                 Notifications <span class="badge badge-light">4</span>
+                                </button>
+                            </div>
+                            
+                            
+                            <br><br>
+                            <div>
+                                <h5 class="card-title">Contextual variations</h5>
+                                <span class="badge badge-primary">Primary</span>
+                                <span class="badge badge-secondary">Secondary</span>
+                                <span class="badge badge-success">Success</span>
+                                <span class="badge badge-danger">Danger</span>
+                                <span class="badge badge-warning">Warning</span>
+                                <span class="badge badge-info">Info</span>
+                                <span class="badge badge-light">Light</span>
+                                <span class="badge badge-dark">Dark</span>
+                               
+                            </div>
+
+                            <br><br>
+                            <div>
+                                <h5 class="card-title">Pill badges</h5>
+                                <span class="badge badge-pill badge-primary">Primary</span>
+                                <span class="badge badge-pill badge-secondary">Secondary</span>
+                                <span class="badge badge-pill badge-success">Success</span>
+                                <span class="badge badge-pill badge-danger">Danger</span>
+                                <span class="badge badge-pill badge-warning">Warning</span>
+                                <span class="badge badge-pill badge-info">Info</span>
+                                <span class="badge badge-pill badge-light">Light</span>
+                                <span class="badge badge-pill badge-dark">Dark</span>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+    </body>
+</html>
